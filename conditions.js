@@ -98,3 +98,19 @@ if (speed > 120) {
 } else {
   console.log("Low Speed");
 }
+
+const age = 15;
+
+let description = "";
+
+if (age >= 18) {
+  description = "Adult";
+}
+
+description = age >= 18 ? "Adult" : "";
+
+age >= 18 && console.log("Adult");
+age >= 18 && (description = "Adult");
+
+age >= 18 || (description = "Adult");
+console.log(description);
